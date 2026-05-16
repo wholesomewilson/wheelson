@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aar
+
+# Gradle / build outputs
+.gradle/
+build/
+**/build/
+
+# Local configuration (SDK path, secrets)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations.xml
+!.idea/deploymentTargetDropDown.xml
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/vcs.xml
+!.idea/inspectionProfiles/
+
+# Native / NDK
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# Log files
+*.log
+logs.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Profiling
+*.hprof
+
+# Signing (never commit keystores)
+*.jks
+*.keystore
+
+# On-device LLM models (large binaries — download separately; see README)
+app/src/main/assets/models/*.task
+!app/src/main/assets/models/.gitkeep
+
+# Local feed data (export from Tracy or your API — see README)
+app/src/main/assets/feed.json
+
+# Legacy captures folder
+/captures
+.claude
